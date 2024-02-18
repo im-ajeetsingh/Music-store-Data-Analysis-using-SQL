@@ -1,6 +1,6 @@
 select * from media_type;
 
---SET: 1
+/* Question Set 1 - Beginers */
 --Q.1 Who is the senior most employee based on job title??
 select *from employee
 order by levels desc
@@ -39,7 +39,7 @@ group by customer.customer_id
 order by ttl desc
 limit 1
 
---SET: 2
+/* Question Set Intermediate - Intermediate */
 --Q.1 Write query to return the email , first name , last name, & Gene of all rock music 
 --listeners. return your list ordered alphabatically by email starting with A.
 
